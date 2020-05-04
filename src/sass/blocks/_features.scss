@@ -1,0 +1,37 @@
+.features {
+  background-color: #f6f6f6;
+  padding: 70px 0 70px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    }
+  &__item {
+    margin-top: 65px;
+    width: 275px;
+    color: #0d0d0d;
+    img {
+      display: block;
+      margin: 0 auto;
+        } 
+    }
+  &__header {
+    margin-top: 38px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+  }
+  &__descr {
+    margin-top: 27px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    a {
+      color: $main-color;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 300;
+      text-decoration: underline;
+      }   
+    }
+}
