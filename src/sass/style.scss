@@ -6,17 +6,13 @@
   width: 950px;
   margin: 0 auto;
 }
-.title {
-  color: #0d0d0d;
-  font-size: 30px;
-  line-height: 30px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-}
+
 @import 'blocks/promo';
-@import 'blocks/header';
+@import 'blocks/header.scss';
 @import 'blocks/buttons';
+@import 'blocks/titles';
 @import 'blocks/features';
 @import 'media';
+@import 'blocks/consultation';
+@import 'blocks/forms';
 
