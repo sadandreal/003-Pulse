@@ -1,0 +1,44 @@
+.testimonials {
+    padding: 0 0 15px 0;
+    &__item {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        &:nth-of-type(1) {
+            margin-top: 70px;
+        }
+    }
+    &__avatar {
+        margin-right: 62px;
+        margin-bottom: 20px;
+        flex-shrink: 0;
+    }
+    &__title {
+        color: #0d0d0d;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    &__subtitle {
+        color: #646464;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 300;
+        margin-bottom: 19px;
+    }
+    &__descr {
+        margin-bottom: 20px;
+        color: #0d0d0d;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 300;
+        width: 660px;
+    }
+    hr {
+        border-color: #f6f6f6;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+}

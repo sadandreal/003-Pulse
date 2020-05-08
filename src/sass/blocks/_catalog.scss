@@ -8,6 +8,7 @@
     align-items: center;
     margin-bottom: 0px;
     margin-left: 0px;
+    padding-left: 0px;
   }
   &__tab {
     width: 220px;
@@ -42,6 +43,9 @@
     flex-wrap: wrap;
     &_active {
       display: flex;
+      margin-top: 60px;
+      justify-content: space-between;
+      flex-wrap: wrap;
     }
   }
   &-item {
@@ -86,7 +90,7 @@
       }
     }
     hr {
-      color: #e8e8e8;
+      border-color: #e8e8e8;
       margin-top: 19px;
       margin-bottom: 23px;
       border-bottom: none;
@@ -104,6 +108,7 @@
     }
     &__price {
       font-size: 20px;
+      line-height: 22px;
       color: #050505;
       font-weight: 700;
     }
